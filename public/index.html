@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <link rel="stylesheet" href="/css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="fixed top-0 left-0 w-full z-50 bg-gray-700">
+        <nav class="p-7 text-white flex justify-between items-center tracking-wide gap-5">
+            <ul class="flex items-center gap-8 font-roboto  ml-5 p-2" id="left menu">
+                
+                <div class="dropdown dropdown-hover">
+                    <label class="text-md hover:text-slate-400 hover:underline underline-offset- my-2" tabindex="0">ORDER ONLINE</label>
+                    <div class="dropdown-menu dropdown-menu-bottom-right mt-2">
+                        <a class="dropdown-item text-sm text-black">Cakes & Pasteries</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Bread</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Gift Boxes</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Customize Your Order</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Track your Order</a>
+                    </div>
+                </div>
+                <div class="dropdown dropdown-hover">
+                    <label class="text-md hover:text-slate-400 hover:underline underline-offset- my-2" tabindex="0">GROCERY</label>
+                    <div class="dropdown-menu dropdown-menu-bottom-right mt-2">
+                        <a class="dropdown-item text-sm text-black">Baking Supplies</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Fresh Ingredients</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Special Discounts</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Grocery Bundles</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Shop All Grocery</a>
+                    </div>
+                </div>
+                <div class="dropdown dropdown-hover">
+                    <label class="text-md hover:text-slate-400 hover:underline underline-offset- my-2" tabindex="0">VISIT US</label>
+                    <div class="dropdown-menu dropdown-menu-bottom-right mt-2">
+                        <a class="dropdown-item text-sm text-black">Our Location</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Store Hours</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Special Events</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Contact Us</a>
+                        <a tabindex="-1" class="dropdown-item text-sm text-black">Directions</a>
+                    </div>
+                </div>
+            </ul>
+            <div class="m-auto   p-2">
+                <span class="font-caveat uppercase text-2xl">Sweet Delights Bakery</span>
+            </div>
+            <ul id="right menu" class="flex items-center gap-8 font-roboto  p-2">
+                <li class="text-md hover:text-slate-300 hover:underline underline-offset-8"><a href="#AboutUs">ABOUT US</a></li>
+                <li class="text-md hover:text-white hover:bg-slate-400 bg-white text-black p-[5px] rounded-lg"><a href="##">PUDDING CLUB</a></li>
+                <button type="button" class="border-white border-2 rounded-xl p-[2px]">
+                    <img src="/assets/icons/search-icon.svg" alt="" class="text-white">
+                </button>
+                <button type="button" class="border-white border-2 rounded-xl p-[2px]">
+                    <img src="/assets/icons/account-icon.svg" alt="" class="text-white">
+                </button>
+                <button type="button" class="border-white border-2 rounded-xl p-[2px]">
+                    <img src="/assets/icons/shopping-cart-icon.svg" alt="" class="text-white">
+                </button>
+            </ul>
+        </nav>
+    </header>
+    <main class="relative">
+        <img src="/assets/bakery-bg.jpg" alt="bakery-background" class="bg-contain z-0">
+        <section class="absolute inset-0 flex flex-col items-center justify-center text-center gap-8  z-10 text-white">
+            <h1 class="text-8xl font-bold font-caveat">Step Into a Sweet Wonderland</h1>
+            <p class="mt-4 text-lg font-roboto">Order sweet. delicious and gif-worthy treats that anyone will be sure to
+                love this holiday season.
+            </p>
+            <button class="bg-white w-36 p-3 rounded-md text-black font-bold font-roboto hover:bg-slate-400 hover:text-white">Shop Now</button>
+        </section>
+    </main>
+    <!--About Us section-->
+    <div class="flex flex-col items-center justify-center pb-10 bg-gray-600" id="AboutUs">
+        <section class="mt-16 p-12">
+            <h1 class="text-5xl font-roboto font-bold text-white">About Us</h1>
+        </section>
+        <section class="mt-5 mb-20">
+            <div class="grid grid-cols-1 xl:grid-cols-3 gap-10 px-4 py-3">
+                <!-- Card Template -->
+                <div class="flex flex-col rounded-2xl w-[400px] bg-[#ffffff] shadow-2xl">
+                    <figure class="flex justify-center items-center rounded-2xl">
+                        <img src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png" alt="Card Preview" class="rounded-t-2xl">
+                    </figure>
+                    <!---->
+                    <div class="flex flex-col p-8 flex-grow">
+                        <div class="text-2xl font-bold text-[#374151] pb-4 uppercase h-16 flex items-center justify-center">
+                            Our Passion
+                        </div>
+                        <div class="text-lg text-[#374151] flex-grow text-justify">
+                            At Sweet Delights Bakery, baking is not just our job, it’s our passion. We pour love into every pastry, bread, and cake we create.
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flex flex-col rounded-2xl w-[400px] bg-[#ffffff] shadow-2xl">
+                    <figure class="flex justify-center items-center rounded-2xl">
+                        <img src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png" alt="Card Preview" class="rounded-t-2xl">
+                    </figure>
+                    <!---->
+                    <div class="flex flex-col p-8 flex-grow">
+                        <div class="text-2xl font-bold text-[#374151] pb-4 uppercase h-16 flex items-center justify-center">
+                            Fresh Ingredients
+                        </div>
+                        <div class="text-lg text-[#374151] flex-grow text-justify">
+                            We believe in using only the freshest, highest-quality ingredients to deliver the best flavors in every bite.
+                        </div>
+                        
+                    </div>
+                 
+                </div>
+                <div class="flex flex-col rounded-2xl w-[400px] bg-[#ffffff] shadow-2xl">
+                    <figure class="flex justify-center items-center rounded-2xl">
+                        <img src="https://tailwind-generator.b-cdn.net/images/card-generator/tailwind-card-generator-card-preview.png" alt="Card Preview" class="rounded-t-2xl">
+                    </figure>
+                   
+                    <div class="flex flex-col p-8 flex-grow">
+                        <div class="text-2xl font-bold text-[#374151] pb-4 uppercase h-16 flex items-center justify-center">
+                            Our Story
+                        </div>
+                        <div class="text-lg text-[#374151] flex-grow text-justify">
+                            From humble beginnings in a cozy kitchen, Sweet Delights Bakery has grown into a cherished community favorite, serving smiles one bite at a time.
+                        </div>
+                
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Footer-->
+    <div class="flex flex-col w-full h-fit bg-[#374151] text-[#e5e7eb] px-14 py-28">
+        <div class="flex flex-row">
+            <div class="flex flex-col gap-2 justify-center w-[35%]">
+                <div class="flex items-center w-full gap-4">
+                    <!---->
+                    <div class="text-3xl font-bold uppercase">Sweet Delights Bakery</div>
+                    <!---->
+                </div>
+                <div class="grid grid-cols-3 gap-6 w-fit p-4"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+    
+                </div>
+                <!---->
+            </div>
+            <div class="flex flex-row w-[65%] justify-end gap-16 text-nowrap">
+                <div class="grid grid-cols-2 gap-10">
+                    <!---->
+                    <div class="flex flex-col gap-2">
+                        <div class="font-bold uppercase text-[#9ca3af] pb-3">Comany</div> <a href="#xxx" class="hover:underline">About Us</a>  <a href="#xxx" class="hover:underline">Contact</a>  <a href="#xxx" class="hover:underline">Support</a>  <a href="#xxx" class="hover:underline">News</a>
+    
+                    </div>
+                    <!---->
+                    <div class="flex flex-col gap-2">
+                        <div class="font-bold uppercase text-[#9ca3af] pb-3">Legal</div> <a href="#xxx" class="hover:underline">Imprint</a>  <a href="#xxx" class="hover:underline">Privacy Policy</a>  <a href="#xxx" class="hover:underline">Terms of Use</a>
+    
+                    </div>
+                    <!---->
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="font-bold uppercase text-[#9ca3af] pb-3">Newsletter</div>
+                    <p class="text-[#e5e7eb] mb-2">Subscribe to our newsletter.</p>
+                    <form class="flex items-center">
+                        <input type="email" name="email" placeholder="Enter your email" class="w-full bg-gray-100 text-gray-700 rounded-l-lg py-3 px-4 focus:outline-none focus:ring-purple-600 focus:border-transparent" autocomplete="off" required="">
+                        <button type="submit" class="bg-[#7e22ce] text-[#ffffff] font-semibold py-3 px-6 rounded-r-lg transition-colors duration-300">Subscribe</button>
+                    </form>
+                </div>
+                <!---->
+            </div>
+        </div>
+        <div class="w-full border-t border-gray-500 my-8"></div>
+        <div class="text-center">© 2024 Sweet Delights Bakery - All rights reserved.</div>
+        <!---->
+    </div>
+
+    <!--Script-->
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
